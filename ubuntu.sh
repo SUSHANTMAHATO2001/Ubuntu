@@ -126,11 +126,11 @@ install1
 elif [ "$cmd1" = "Y" ];then
 install1
 else
-printf "\x1b[38;5;215m[${time1}]\e[0m \x1b[38;5;204m[ERROR]:\e[0m \x1b[38;5;86m Installation hackerdaii.\n"
+printf "\x1b[38;5;215m[${time1}]\e[0m \x1b[38;5;204m[ERROR]:\e[0m \x1b[38;5;86m Installation aborted.\n"
 printf "\e[0m"
 exit
 fi
 else
-printf "\x1b[38;5;215m[${time1}]\e[0m \x1b[38;5;204m[ERROR]:\e[0m \x1b[38;5;86m Installation hackerdaii.\n"
+printf "\x1b[38;5;215m[${time1}]\e[0m \x1b[38;5;204m[ERROR]:\e[0m \x1b[38;5;86m Installation aborted.\n"
 printf "\e[0m"
 fi

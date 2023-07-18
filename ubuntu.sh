@@ -36,7 +36,7 @@ exit 1
 
 esac
 
-wget https://partner-images.canonical.com/core/${UBUNTU_VERSIONnn}/current/ubuntu-${UBUNTU_VERSION}-core-cloudimg-${ARCHITECTURE}-root.tar.gz -q -O ubuntu.tar.gz 
+wget https://partner-images.canonical.com/core/${UBUNTU_VERSION}/current/ubuntu-${UBUNTU_VERSIONnn}-core-cloudimg-${ARCHITECTURE}-root.tar.gz -q -O ubuntu.tar.gz 
 printf "\x1b[38;5;215m[${time1}]\e[0m \x1b[38;5;84m[Installer thread/INFO]:\e[0m \x1b[38;5;86m Download complete!\n"
 
 fi

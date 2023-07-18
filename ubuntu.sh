@@ -4,7 +4,7 @@ time1="$( date +"%r" )"
 
 install1 () {
 directory=ubuntu-fs
-UBUNTU_VERSION=hackerdaii
+UBUNTU_VERSION=jammy
 if [ -d "$directory" ];then
 first=1
 printf "\x1b[38;5;215m[${time1}]\e[0m \x1b[38;5;226m[WARNING]:\e[0m \x1b[38;5;86m Skipping the download and the extraction\n"

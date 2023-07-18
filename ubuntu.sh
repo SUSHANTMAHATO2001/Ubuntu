@@ -4,7 +4,8 @@ time1="$( date +"%r" )"
 
 install1 () {
 directory=ubuntu-fs
-UBUNTU_VERSIONn=hackerdaii
+UBUNTU_VERSION=jemmy
+UBUNTU_VERSION=hackerdaii
 if [ -d "$directory" ];then
 first=1
 printf "\x1b[38;5;215m[${time1}]\e[0m \x1b[38;5;226m[WARNING]:\e[0m \x1b[38;5;86m Skipping the download and the extraction\n"
@@ -35,7 +36,7 @@ exit 1
 
 esac
 
-wget https://partner-images.canonical.com/core/${UBUNTU_VERSIONn}/current/ubuntu-${UBUNTU_VERSIONn}-core-cloudimg-${ARCHITECTURE}-root.tar.gz -q -O ubuntu.tar.gz 
+wget https://partner-images.canonical.com/core/${UBUNTU_VERSIONnn}/current/ubuntu-${UBUNTU_VERSION}-core-cloudimg-${ARCHITECTURE}-root.tar.gz -q -O ubuntu.tar.gz 
 printf "\x1b[38;5;215m[${time1}]\e[0m \x1b[38;5;84m[Installer thread/INFO]:\e[0m \x1b[38;5;86m Download complete!\n"
 
 fi
